@@ -26,8 +26,8 @@ class DiziWatch extends MProvider {
       MElement img = a.selectFirst("img");
       MManga anime = new MManga();
       anime.name = img.attr("alt");
-      anime.link = a.getHref;
-      anime.imageUrl = img.getSrc;
+      anime.link = await a.getHref;
+      anime.imageUrl = await img.getSrc;
       list.add(anime);
     }
 
