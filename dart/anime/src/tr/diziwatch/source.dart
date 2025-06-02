@@ -6,7 +6,7 @@ const _diziwatchSourceCodeUrl =
     "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/anime/src/tr/diziwatch/diziwatch.dart";
 Source _diziwatchSource = Source(
   name: "diziWatch",
-  baseUrl: "https://diziwatch.net",
+  baseUrl: "https://yeniwatch.net.tr"
   lang: "tr",
   typeSource: "single",
   iconUrl:
